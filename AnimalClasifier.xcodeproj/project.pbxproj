@@ -11,6 +11,7 @@
 		BE45353627C8A7B30054A1AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE45353527C8A7B30054A1AC /* ContentView.swift */; };
 		BE45353827C8A7B50054A1AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE45353727C8A7B50054A1AC /* Assets.xcassets */; };
 		BE45353B27C8A7B50054A1AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE45353A27C8A7B50054A1AC /* Preview Assets.xcassets */; };
+		BE45354227C8ABCE0054A1AC /* AnimalClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BE45354127C8ABCE0054A1AC /* AnimalClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BE45353527C8A7B30054A1AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE45353727C8A7B50054A1AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE45353A27C8A7B50054A1AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE45354127C8ABCE0054A1AC /* AnimalClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AnimalClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BE45353327C8A7B30054A1AC /* AnimalClasifierApp.swift */,
 				BE45353527C8A7B30054A1AC /* ContentView.swift */,
+				BE45354127C8ABCE0054A1AC /* AnimalClassifier.mlmodel */,
 				BE45353727C8A7B50054A1AC /* Assets.xcassets */,
 				BE45353927C8A7B50054A1AC /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE45353627C8A7B30054A1AC /* ContentView.swift in Sources */,
+				BE45354227C8ABCE0054A1AC /* AnimalClassifier.mlmodel in Sources */,
 				BE45353427C8A7B30054A1AC /* AnimalClasifierApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
